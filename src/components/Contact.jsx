@@ -79,12 +79,12 @@ const Contact = () => {
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Your Name</label>
                   <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required
-                    className="w-full px-4 py-3 rounded-xl glass text-white placeholder-gray-500 focus:outline-none focus:border-neon-cyan/30 border border-transparent transition-colors" placeholder="John Doe" />
+                    className="w-full px-4 py-3 rounded-xl glass text-white placeholder-gray-500 focus:outline-none focus:border-neon-cyan/30 border border-transparent transition-colors" placeholder="Enter your name" />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Your Email</label>
                   <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required
-                    className="w-full px-4 py-3 rounded-xl glass text-white placeholder-gray-500 focus:outline-none focus:border-neon-cyan/30 border border-transparent transition-colors" placeholder="john@example.com" />
+                    className="w-full px-4 py-3 rounded-xl glass text-white placeholder-gray-500 focus:outline-none focus:border-neon-cyan/30 border border-transparent transition-colors" placeholder="Enter your email" />
                 </div>
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
