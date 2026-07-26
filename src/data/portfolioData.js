@@ -139,9 +139,9 @@ export const experienceData = [
     id: 3,
     type: "achievement",
     title: "State Level Badminton Player",
-    company: "Gujarat State Sports Association",
+    company: "Uttar Pradesh State Sports Association",
     duration: "2019 - Present",
-    description: "Represented district at state-level badminton championships. Won bronze medal in Under-19 singles category. Sports taught me discipline, strategic thinking, and the importance of consistent practice.",
+    description: "Represented district at state-level badminton championships. Sports taught me discipline, strategic thinking, and the importance of consistent practice.",
     skills: ["Leadership", "Discipline", "Strategic Thinking", "Teamwork"],
   },
 ];
