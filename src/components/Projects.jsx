@@ -66,7 +66,7 @@ const Projects = () => {
                           <FaGithub size={14} />Code
                         </a>
                         <a href={project.live} target="_blank" rel="noopener noreferrer" className="flex-1 btn-primary py-2.5 text-sm flex items-center justify-center gap-2">
-                          <FaExternalLinkAlt size={12} />Demo
+                          <FaExternalLinkAlt size={12} />Live
                         </a>
                       </div>
                     </div>
